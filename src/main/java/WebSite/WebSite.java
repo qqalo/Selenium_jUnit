@@ -11,6 +11,7 @@ public class WebSite {
     }
     public RegisterUser RegisterUser() { return new RegisterUser(webDriver);}
     public UserLogin UserLogin() { return new UserLogin(webDriver);}
+    public Calculator Calculator() { return new Calculator(webDriver);}
 
 
 
